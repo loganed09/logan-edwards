@@ -8,12 +8,12 @@ import Skills from './components/Skills/Skills';
 
 function App() {
   return (
-    <main>
-      <NavBar />
+    <main className="text-gray-400 bg-gray-900 body-font">
+      {/* <NavBar /> */}
       <About />
       <Projects />
-      <Skills />
-      <Contact />
+      {/* <Skills /> */}
+      {/* <Contact /> */}
     </main>
   );
 }
